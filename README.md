@@ -71,6 +71,38 @@ Here are some screenshots of the application:
    ```
    The server will run on http://0.0.0.0:5000
 
+### Backend Implementation
+
+The backend of this application is implemented in `server.py` using Python Flask. The server provides a RESTful API for the Flutter frontend to interact with the MySQL database.
+
+### Server Features
+
+- **Database Initialization**: Automatically creates the required database and tables if they don't exist
+- **RESTful API**: Implements CRUD operations for sales management
+- **Cross-Origin Resource Sharing**: Enabled with Flask-CORS for seamless frontend-backend communication
+- **Error Handling**: Comprehensive error handling for database operations and API requests
+- **JSON Serialization**: Proper formatting of data for API responses
+
+### Server Code Structure
+
+The `server.py` file contains:
+
+1. **Database Configuration**: MySQL connection settings
+2. **Database Initialization**: Setup code for creating the database and tables
+3. **API Endpoints**: Flask routes for handling different HTTP requests
+4. **Data Validation**: Validation of request data before processing
+5. **Error Handling**: Proper error responses with appropriate HTTP status codes
+
+### Running the Server
+
+The server can be started with:
+
+```
+python server.py
+```
+
+It will run on `0.0.0.0:5000`, making it accessible from both localhost and other devices on the network.
+
 ### Flutter App Setup
 
 1. Ensure Flutter is installed (version 3.29.2 recommended)
