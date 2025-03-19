@@ -163,15 +163,6 @@ lib/
 └── widgets/               # Reusable UI components
 ```
 
-## Development Process
-
-This project was developed following these steps:
-1. Requirements analysis and UI/UX design
-2. Backend development with Flask and MySQL
-3. Frontend development with Flutter
-4. Integration of frontend and backend
-5. Testing and debugging
-6. Final deployment and documentation
 
 ## Learning Outcomes
 
@@ -183,14 +174,6 @@ Through this project, the following concepts were applied:
 - User interface design for mobile applications
 - Full-stack development integration
 
-## Future Enhancements
-
-Potential future improvements for this application:
-- User authentication and authorization
-- Product inventory management
-- Sales reports and data visualization
-- Barcode/QR code scanning for products
-- Cloud synchronization for offline usage
 
 ## Resources
 
